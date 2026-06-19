@@ -1,0 +1,58 @@
+Your Windows Automatic Repair has failed. The important part of the error is:
+
+> "Your device ran into a problem and couldn't be repaired"
+
+Log file: C:\Windows\System32\Logfiles\Srt\SrtTrail.txt
+
+
+
+This is usually caused by one of these:
+
+Corrupted Windows system files
+
+Damaged boot records (BCD/MBR)
+
+Failed Windows update
+
+Failing hard drive/SSD
+
+Corrupted file system
+
+
+Step 1: Open Advanced Recovery
+
+Press Enter on that screen.
+
+Then go to:
+
+Troubleshoot → Advanced Options → Command Prompt
+
+Tell me if you can get there.
+
+
+Step 2: Run Repair Commands
+In Command Prompt, run these commands one by one:
+
+chkdsk C: /f /r
+
+This may take a while.
+Then:
+
+sfc /scannow /offbootdir=C:\ /offwindir=C:\Windows
+
+Then:
+
+bootrec /fixmbr
+bootrec /fixboot
+bootrec /scanos
+bootrec /rebuildbcd
+
+If bootrec /fixboot returns "Access is denied", tell me and I'll give the alternative fix.
+
+Step 3: If Windows Still Won't Start
+
+Go back to:
+
+Advanced Options → System Restore
+
+If there is a restore point available, restore the system to an earlier date.

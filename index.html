@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Austine Tech Innovation Hub — where the curious build</title>
+  <meta name="description" content="A working home for Africa's founders, researchers and tinkerers. Funded. Mentored. Sometimes a little bruised. Always building." />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Austine Tech Innovation Hub" />
+  <meta property="og:description" content="A working home for Africa's builders." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1581094288338-2314dddb7ece?w=1200" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,300..900,0..100,0..1&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23111B2E'/%3E%3Cpath d='M9 22 L16 8 L23 22 M12 18 L20 18' stroke='%23E8FF8B' stroke-width='2.4' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+  <div class="cursor" id="cursor" aria-hidden="true"></div>
+  <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+
+  <!-- Ticker / hand-stamped ribbon -->
+  <div class="ribbon" aria-hidden="true">
+    <div class="ribbon-track">
+      <span>Now accepting applications for Cohort 12 — closes 30 November</span>
+      <span>★</span>
+      <span>Demo Day: 14 Nov · Lagos · 240 attending</span>
+      <span>★</span>
+      <span>We've just deployed $4.2M into 8 new teams</span>
+      <span>★</span>
+      <span>Frontier AI Salon — 5 Dec · Nairobi · invite only</span>
+      <span>★</span>
+      <span>Now accepting applications for Cohort 12 — closes 30 November</span>
+      <span>★</span>
+      <span>Demo Day: 14 Nov · Lagos · 240 attending</span>
+      <span>★</span>
+      <span>We've just deployed $4.2M into 8 new teams</span>
+      <span>★</span>
+      <span>Frontier AI Salon — 5 Dec · Nairobi · invite only</span>
+      <span>★</span>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#top" class="logo">
+        <span class="logo-mark"><svg viewBox="0 0 40 40"><rect width="40" height="40" rx="10" fill="currentColor"/><path d="M12 28 L20 12 L28 28 M15.5 22.5 L24.5 22.5" stroke="#fff" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <span class="logo-text">Austine<em>·</em>Hub</span>
+      </a>
+      <nav class="primary-nav">
+        <a href="#programs">Programs</a>
+        <a href="#startups">Startups</a>
+        <a href="#spaces">Spaces</a>
+        <a href="#field-notes">Field notes</a>
+        <a href="#about">About</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn" id="searchBtn" aria-label="Search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        </button>
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle theme">
+          <svg class="ic-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+          <svg class="ic-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <a href="#apply" class="btn btn-dark magnetic">
+          <span>Apply now</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </a>
+        <button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="hero-meta">
+        <span class="meta-label">Issue 14 · Lagos/Nairobi/Cape Town · 2026</span>
+        <span class="meta-dot"></span>
+        <span class="meta-label">An open house for builders</span>
+      </div>
+
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <h1 class="display">
+            <span class="word" data-split>Where</span>
+            <span class="word" data-split>Africa's</span>
+            <span class="word" data-split><em>curious</em></span>
+            <span class="word" data-split>go</span>
+            <span class="word" data-split>to</span>
+            <span class="word" data-split><span class="hl">build.</span></span>
+          </h1>
+          <p class="hero-sub">
+            A working home for founders, researchers and tinkerers. Funded when it makes sense. Mentored by people who've shipped. Sometimes a little bruised by the market. Always building.
+          </p>
+          <div class="hero-cta">
+            <a href="#apply" class="btn btn-accent btn-lg magnetic">
+              <span>Start your application</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#tour" class="btn btn-ghost btn-lg">
+              <span class="play-ic"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="7 4 20 12 7 20 7 4"/></svg></span>
+              <span>Watch the 2-minute tour</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-photo">
+          <div class="photo photo-1" data-speed="0.9">
+            <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=900&q=80&auto=format&fit=crop" alt="Founders collaborating around a laptop" loading="eager" />
+          </div>
+          <div class="photo photo-2" data-speed="1.1">
+            <img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=600&q=80&auto=format&fit=crop" alt="A workshop in session" />
+            <div class="sticker">
+              <span>↗</span> in the wild
+            </div>
+          </div>
+          <div class="photo photo-3" data-speed="0.8">
+            <img src="https://images.unsplash.com/photo-1581094288338-2314dddb7ece?w=600&q=80&auto=format&fit=crop" alt="A researcher in a lab coat" />
+          </div>
+          <div class="postcard">
+            <div class="postcard-row"><span>Founded</span><strong>2019</strong></div>
+            <div class="postcard-row"><span>Backed by</span><strong>Mastercard F., Google, Acumen</strong></div>
+            <div class="postcard-row"><span>Coffee this year</span><strong>14,820 cups</strong></div>
+            <div class="postcard-stamp">No.014 · ATIH</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pathways -->
+      <div class="pathways">
+        <p class="kicker">— pick your door —</p>
+        <a href="#founders" class="door">
+          <span class="door-num">01</span>
+          <div class="door-body">
+            <strong>I'm a founder</strong>
+            <span>Funding, mentorship, a desk and a deadline</span>
+          </div>
+          <span class="door-arrow">→</span>
+        </a>
+        <a href="#research" class="door">
+          <span class="door-num">02</span>
+          <div class="door-body">
+            <strong>I'm a researcher</strong>
+            <span>Lab access, paper-to-product sprints, an audience</span>
+          </div>
+          <span class="door-arrow">→</span>
+        </a>
+        <a href="#invest" class="door">
+          <span class="door-num">03</span>
+          <div class="door-body">
+            <strong>I write cheques</strong>
+            <span>Curated deal flow, co-invest, syndicate</span>
+          </div>
+          <span class="door-arrow">→</span>
+        </a>
+        <a href="#careers" class="door">
+          <span class="door-num">04</span>
+          <div class="door-body">
+            <strong>I want to work here</strong>
+            <span>Open roles, fellowships, residencies</span>
+          </div>
+          <span class="door-arrow">→</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- STATS / WHO WE ARE -->
+    <section class="who">
+      <div class="container who-grid">
+        <div class="who-text">
+          <p class="kicker">— a working community —</p>
+          <h2 class="h-display">We're 1,840 people in three cities, building the kinds of companies we wished existed when we were starting out.</h2>
+        </div>
+        <div class="who-photo">
+          <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1200&q=80&auto=format&fit=crop" alt="A gathering of founders" />
+        </div>
+        <div class="who-stats">
+          <div class="stat">
+            <div class="stat-num" data-count="247">0</div>
+            <div class="stat-lbl">startups in the family</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num" data-count="42" data-prefix="$" data-suffix="M">0</div>
+            <div class="stat-lbl">capital deployed (USD)</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num" data-count="3200">0</div>
+            <div class="stat-lbl">jobs created in the last 3 years</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num" data-count="68">0</div>
+            <div class="stat-lbl">mentors with shipped products</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MARQUEE PARTNERS -->
+    <section class="marquee" aria-label="A few of our partners">
+      <div class="marquee-track">
+        <span>Mastercard Foundation</span><span>✦</span>
+        <span>Google for Startups</span><span>✦</span>
+        <span>Acumen</span><span>✦</span>
+        <span>DEG</span><span>✦</span>
+        <span>LoftyInc Capital</span><span>✦</span>
+        <span>Africa50</span><span>✦</span>
+        <span>Co-creation Hub</span><span>✦</span>
+        <span>iHub Nairobi</span><span>✦</span>
+        <span>Stanford d.school</span><span>✦</span>
+        <span>Mastercard Foundation</span><span>✦</span>
+        <span>Google for Startups</span><span>✦</span>
+        <span>Acumen</span><span>✦</span>
+        <span>DEG</span><span>✦</span>
+        <span>LoftyInc Capital</span><span>✦</span>
+        <span>Africa50</span><span>✦</span>
+        <span>Co-creation Hub</span><span>✦</span>
+        <span>iHub Nairobi</span><span>✦</span>
+        <span>Stanford d.school</span><span>✦</span>
+      </div>
+    </section>
+
+    <!-- PROGRAMS -->
+    <section class="programs" id="programs">
+      <div class="container">
+        <header class="section-head">
+          <p class="kicker">— programs —</p>
+          <h2 class="h-display">Four doors. <em>Pick the one that fits where you are.</em></h2>
+        </header>
+        <div class="program-grid">
+          <a href="#acc" class="program" data-tilt>
+            <div class="program-photo">
+              <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=700&q=80&auto=format&fit=crop" alt="Pitch session" />
+            </div>
+            <div class="program-meta">
+              <span class="tag">12 weeks</span>
+              <span class="tag">Equity-free</span>
+            </div>
+            <h3>ATIH Accelerator</h3>
+            <p>Our flagship. Twelve weeks, a generous check, and the kind of mentor who calls you on a Sunday.</p>
+            <span class="more">Read the brief <span>→</span></span>
+          </a>
+
+          <a href="#res" class="program featured" data-tilt>
+            <div class="program-photo">
+              <img src="https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?w=700&q=80&auto=format&fit=crop" alt="Lab work" />
+            </div>
+            <div class="program-meta">
+              <span class="tag">6 months</span>
+              <span class="tag">Deep tech</span>
+            </div>
+            <h3>Founder Residency</h3>
+            <p>For the people building in biotech, climate, frontier AI. Longer runway. Lab access. A real PhD in the room.</p>
+            <span class="more">Read the brief <span>→</span></span>
+          </a>
+
+          <a href="#seed" class="program" data-tilt>
+            <div class="program-photo">
+              <img src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=700&q=80&auto=format&fit=crop" alt="A meeting" />
+            </div>
+            <div class="program-meta">
+              <span class="tag">Rolling</span>
+              <span class="tag">$250K–$1M</span>
+            </div>
+            <h3>Seed Fund</h3>
+            <p>When you've found something real and need a patient first check. We lead. We follow. We never pretend we don't learn too.</p>
+            <span class="more">Pitch us <span>→</span></span>
+          </a>
+
+          <a href="#lab" class="program" data-tilt>
+            <div class="program-photo">
+              <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=700&q=80&auto=format&fit=crop" alt="A workshop class" />
+            </div>
+            <div class="program-meta">
+              <span class="tag">Self-paced</span>
+              <span class="tag">120 hours</span>
+            </div>
+            <h3>Skills Lab</h3>
+            <p>The classes we wish we'd had — product, fundraising, GTM, engineering. Built by operators, not influencers.</p>
+            <span class="more">Browse courses <span>→</span></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- STARTUPS — magazine layout -->
+    <section class="startups" id="startups">
+      <div class="container">
+        <header class="section-head row">
+          <div>
+            <p class="kicker">— the family —</p>
+            <h2 class="h-display">247 companies. <em>One mood: ship.</em></h2>
+          </div>
+          <div class="filters" role="tablist">
+            <button class="chip is-active" data-filter="all">All</button>
+            <button class="chip" data-filter="fintech">Fintech</button>
+            <button class="chip" data-filter="agritech">AgriTech</button>
+            <button class="chip" data-filter="health">Health</button>
+            <button class="chip" data-filter="ai">AI/ML</button>
+            <button class="chip" data-filter="climate">Climate</button>
+          </div>
+        </header>
+
+        <div class="magazine" id="startupGrid">
+          <article class="m-card big" data-sector="fintech" data-tilt>
+            <div class="m-photo"><img src="https://images.unsplash.com/photo-1556742044-3c52d6e88c62?w=900&q=80&auto=format&fit=crop" alt="PayWave team" /></div>
+            <div class="m-body">
+              <div class="m-meta"><span>Fintech</span><span>·</span><span>Series A · $24M raised</span></div>
+              <h3>PayWave</h3>
+              <p>Cross-border payments for African SMEs. Processing $800M a year, one tap at a time.</p>
+            </div>
+          </article>
+
+          <article class="m-card" data-sector="agritech" data-tilt>
+            <div class="m-photo"><img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&q=80&auto=format&fit=crop" alt="Farm landscape" /></div>
+            <div class="m-body">
+              <div class="m-meta"><span>AgriTech</span><span>·</span><span>Seed</span></div>
+              <h3>AgroLink</h3>
+              <p>50,000 smallholder farmers. One phone. A fairer price for the work.</p>
+            </div>
+          </article>
+
+          <article class="m-card" data-sector="health" data-tilt>
+            <div class="m-photo"><img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&q=80&auto=format&fit=crop" alt="A clinician" /></div>
+            <div class="m-body">
+              <div class="m-meta"><span>Health</span><span>·</span><span>Series A</span></div>
+              <h3>MedRoute</h3>
+              <p>Last-mile medical logistics, served by drones, run by humans who care.</p>
+            </div>
+          </article>
+
+          <article class="m-card tall" data-sector="ai" data-tilt>
+            <div class="m-photo"><img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=600&q=80&auto=format&fit=crop" alt="AI visualisation" /></div>
+            <div class="m-body">
+              <div class="m-meta"><span>AI/ML</span><span>·</span><span>Pre-seed</span></div>
+              <h3>Neuron.ai</h3>
+              <p>Voice agents that actually speak your grandmother's language. 40 of them, in fact.</p>
+            </div>
+          </article>
+
+          <article class="m-card" data-sector="climate" data-tilt>
+            <div class="m-photo"><img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&q=80&auto=format&fit=crop" alt="Solar panels" /></div>
+            <div class="m-body">
+              <div class="m-meta"><span>Climate</span><span>·</span><span>Series A</span></div>
+              <h3>SunGrid</h3>
+              <p>Pay-as-you-go solar. 80,000 homes lit. The grid is optional now.</p>
+            </div>
+          </article>
+
+          <article class="m-card" data-sector="fintech" data-tilt>
+            <div class="m-photo"><img src="https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?w=600&q=80&auto=format&fit=crop" alt="Phone payment" /></div>
+            <div class="m-body">
+              <div class="m-meta"><span>Fintech</span><span>·</span><span>Seed</span></div>
+              <h3>KoboPay</h3>
+              <p>BNPL for the underbanked. 1.2M users across six countries.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="see-all">
+          <a href="#portfolio" class="btn btn-dark">See the full 247 <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SPACES — bento with photos -->
+    <section class="spaces" id="spaces">
+      <div class="container">
+        <header class="section-head">
+          <p class="kicker">— the building —</p>
+          <h2 class="h-display">A 12,000&nbsp;m² <em>campus</em> for people who can't sit still.</h2>
+        </header>
+        <div class="bento">
+          <a href="#desk" class="bento-cell tall" data-tilt>
+            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=900&q=80&auto=format&fit=crop" alt="Co-working space" />
+            <div class="bento-overlay">
+              <span class="bento-num">01</span>
+              <h3>Co-working</h3>
+              <p>Hot desks from $99/mo</p>
+            </div>
+          </a>
+          <a href="#office" class="bento-cell" data-tilt>
+            <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=700&q=80&auto=format&fit=crop" alt="Private office" />
+            <div class="bento-overlay">
+              <span class="bento-num">02</span>
+              <h3>Private offices</h3>
+              <p>4–40 people, plug-and-play</p>
+            </div>
+          </a>
+          <a href="#lab" class="bento-cell" data-tilt>
+            <img src="https://images.unsplash.com/photo-1581093458791-9d42cc05b66d?w=700&q=80&auto=format&fit=crop" alt="Wet lab" />
+            <div class="bento-overlay">
+              <span class="bento-num">03</span>
+              <h3>Wet & hardware labs</h3>
+              <p>BSL-2, PCB, 3D print</p>
+            </div>
+          </a>
+          <a href="#event" class="bento-cell wide" data-tilt>
+            <img src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=900&q=80&auto=format&fit=crop" alt="Event space" />
+            <div class="bento-overlay">
+              <span class="bento-num">04</span>
+              <h3>Event halls</h3>
+              <p>300-seat auditorium · podcast studio · rooftop</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- IMPACT — big editorial pull-quote -->
+    <section class="impact" id="about">
+      <div class="container impact-grid">
+        <div class="impact-photo">
+          <img src="https://images.unsplash.com/photo-1573497019418-b400bb3ab074?w=900&q=80&auto=format&fit=crop" alt="Founder portrait" />
+          <div class="hand-note">"Honestly the most useful 12 weeks of my career." — A.O.</div>
+        </div>
+        <div class="impact-text">
+          <p class="kicker">— field story —</p>
+          <h2 class="h-display"><em>"ATIH didn't give us money.</em> They gave us a network of operators who'd been punched in the face by the same things we were about to face."</h2>
+          <div class="byline">
+            <div class="avatar" style="--c1:#E8FF8B;--c2:#9D7AFF">AO</div>
+            <div>
+              <strong>Adaeze Okonkwo</strong>
+              <span>Founder & CEO, PayWave · Cohort 4</span>
+            </div>
+          </div>
+          <a href="#stories" class="btn btn-dark magnetic">Read more stories <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- EVENTS -->
+    <section class="events" id="field-notes">
+      <div class="container">
+        <header class="section-head">
+          <p class="kicker">— coming up —</p>
+          <h2 class="h-display">Things worth showing up for.</h2>
+        </header>
+        <div class="event-list">
+          <a href="#r1" class="event-row">
+            <div class="event-date"><span>14</span><em>NOV</em></div>
+            <div class="event-body">
+              <span class="event-cat">Demo Day</span>
+              <h3>Cohort 11 — the class of 2026, on stage</h3>
+              <p>Twenty-two startups. One hundred and twenty investors. A live-stream that crashes once a year.</p>
+            </div>
+            <div class="event-where">Lagos · 4:00 PM WAT</div>
+            <div class="event-go">RSVP <span>→</span></div>
+          </a>
+          <a href="#r2" class="event-row">
+            <div class="event-date"><span>22</span><em>NOV</em></div>
+            <div class="event-body">
+              <span class="event-cat">Workshop</span>
+              <h3>Fundraising 101 — the unsexy truth about seed rounds</h3>
+              <p>Three hours with the ATIH Capital team. Pitch deck, data room, the actual follow-up email.</p>
+            </div>
+            <div class="event-where">Hybrid · 10 AM WAT</div>
+            <div class="event-go">Register <span>→</span></div>
+          </a>
+          <a href="#r3" class="event-row">
+            <div class="event-date"><span>05</span><em>DEC</em></div>
+            <div class="event-body">
+              <span class="event-cat">Salon</span>
+              <h3>Frontier AI Salon — building in African languages</h3>
+              <p>Closed doors. Neuron.ai, InstaDeep, Google Research Africa, plus the kind of disagreement that matters.</p>
+            </div>
+            <div class="event-where">Nairobi · 6 PM EAT</div>
+            <div class="event-go">Request invite <span>→</span></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER — full-bleed photo -->
+    <section class="signoff">
+      <div class="signoff-photo">
+        <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1600&q=80&auto=format&fit=crop" alt="The team at work" />
+      </div>
+      <div class="container signoff-card">
+        <p class="kicker">— the tuesday letter —</p>
+        <h2 class="h-display"><em>One</em> good read. <em>Every</em> Tuesday morning.</h2>
+        <p>18,000 founders, investors and operators read our newsletter. Funding rounds, founder threads, one long essay worth your coffee.</p>
+        <form class="letter-form" id="newsletterForm">
+          <input type="email" id="newsEmail" placeholder="you@startup.africa" required autocomplete="email" />
+          <button type="submit" class="btn btn-accent magnetic"><span>Subscribe</span> <span>→</span></button>
+        </form>
+        <p class="form-msg" id="newsMsg"></p>
+        <p class="fine">No spam. Unsubscribe whenever. We hate it as much as you do.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="f-brand">
+          <a href="#top" class="logo">
+            <span class="logo-mark"><svg viewBox="0 0 40 40"><rect width="40" height="40" rx="10" fill="currentColor"/><path d="M12 28 L20 12 L28 28 M15.5 22.5 L24.5 22.5" stroke="#fff" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            <span class="logo-text">Austine<em>·</em>Hub</span>
+          </a>
+          <p>Three hubs. One ugly-beautiful building. 1,840 people who couldn't not build.</p>
+          <p class="addr">14 Adeola Odeku, Victoria Island, Lagos<br/>+234 (0) 1 700 8000 · hello@austinehub.com</p>
+        </div>
+        <div class="f-col">
+          <h5>Programs</h5>
+          <a href="#">Accelerator</a><a href="#">Residency</a><a href="#">Seed Fund</a><a href="#">Skills Lab</a><a href="#">Apply</a>
+        </div>
+        <div class="f-col">
+          <h5>Spaces</h5>
+          <a href="#">Co-working</a><a href="#">Offices</a><a href="#">Labs</a><a href="#">Events</a><a href="#">Tour</a>
+        </div>
+        <div class="f-col">
+          <h5>House</h5>
+          <a href="#">About</a><a href="#">Careers</a><a href="#">Press</a><a href="#">Field notes</a><a href="#">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Austine Tech Innovation Hub. Built in three timezones.</p>
+        <div class="legal">
+          <a href="#">Privacy</a><a href="#">Terms</a><a href="#">Security</a><a href="#">Verification</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Search modal -->
+  <div class="modal" id="searchModal" hidden>
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-panel">
+      <form class="search-form" role="search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <input type="search" id="searchInput" placeholder="Try ‘accelerator’, ‘fintech’, ‘demo day’…" autocomplete="off" />
+        <kbd>ESC</kbd>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
