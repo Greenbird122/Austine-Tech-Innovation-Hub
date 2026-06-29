@@ -1,0 +1,330 @@
+(function () {
+  'use strict';
+
+  window.atTranslations = {
+    sw: {
+      "Bungoma, Kenya · Est. May 2026": "Bungoma, Kenya · Imeanzishwa Mei 2026",
+      "Innovate · Connect · Empower": "Buni · Unganisha · Wezesha",
+      "Start a project": "Anza mradi",
+      "See what we've shipped": "Ona kile tulichosafirisha",
+      "Currently shipping": "Tunasafirisha sasa",
+      "what brings you here": "kinachokuleta hapa",
+      "I need a website": "Ninahitaji tovuti",
+      "I need an app or SaaS": "Ninahitaji programu au SaaS",
+      "I have an IoT idea": "Nina wazo la IoT",
+      "Just looking around": "Naangalia tu",
+      "our story": "hadithi yetu",
+      "Six live builds.": "Ujenzi sita hai.",
+      "Real users.": "Watumiaji halisi.",
+      "Five live builds.": "Ujenzi tano hai.",
+      "what we've shipped": "kile tulichosafirisha",
+      "live deployed products": "bidhaa zilizosafirishwa",
+      "sectors covered": "sekta zilizohudumiwa",
+      "co-founders shipping": "waanzilishi wanaosafirisha",
+      "founded — May": "imeanzishwa — Mei",
+      "what we build": "kile tunachojenga",
+      "Six services.": "Huduma sita.",
+      "One studio.": "Studio moja.",
+      Services: "Huduma",
+      "Web Development": "Utengenezaji wa Tovuti",
+      "App & SaaS Products": "Programu na bidhaa za SaaS",
+      "Start a product": "Anza bidhaa",
+      "IoT & Hardware": "IoT na Maunzi",
+      "Discuss a prototype": "Jadiliana prototype",
+      "UI/UX Design": "Muundo wa UI/UX",
+      "Digital Marketing": "Uuzaji wa Kidijitali",
+      "Product Advisory": "Ushauri wa Bidhaa",
+      "live projects": "miradi hai",
+      "Five shipped.": "Tano zimesafirishwa.",
+      "One more in beta.": "Moja zaidi katika beta.",
+      "the team": "timu",
+      "Three founders.": "Waanzilishi watatu.",
+      "what guides us": "kinachotuongoza",
+      "client voices": "sauti za wateja",
+      "Real people.": "Watu halisi.",
+      "Real feedback.": "Maoni halisi.",
+      "Same-day": "Siku hiyo hiyo",
+      "reply.": "jibu.",
+      "Real humans.": "Watu halisi.",
+      "how we work": "jinsi tunavyofanya kazi",
+      "From": "Kutoka",
+      "idea": "wazo",
+      "live.": "moja kwa moja.",
+      "No shortcuts — just a proven process that ships.": "Hakuna njia za mkato — mchakato uliothibitishwa tu unaosafirisha.",
+      "Discovery & Scope": "Ugunduzi na Upeo",
+      "Design & Architecture": "Ubunifu na Usanifu",
+      "Prototype & Iterate": "Prototype na Rudia",
+      "Build & Polish": "Jenga na Safisha",
+      "Ship & Support": "Safirisha na Saidia",
+      WhatsApp: "WhatsApp",
+      Email: "Barua pepe",
+      "Find us elsewhere": "Tupate mahali pengine",
+      "GitHub profile": "Wasifu wa GitHub",
+      Send: "Tuma",
+      Privacy: "Faragha",
+      Terms: "Masharti",
+      "live builds right now": "miradi hai sasa hivi",
+      "Request a prototype": "Omba prototype",
+      "Build a website": "Jenga tovuti",
+      "Discuss an IoT idea": "Jadiliana wazo la IoT",
+      Austine: "Austine",
+      Paul: "Paul",
+      Bevan: "Bevan",
+      GitHub: "GitHub",
+      LinkedIn: "LinkedIn",
+      Instagram: "Instagram",
+      YouTube: "YouTube",
+      TikTok: "TikTok",
+      Facebook: "Facebook",
+      profile: "wasifu",
+      "Austine Wandera": "Austine Wandera",
+      "Austine Tech": "Austine Tech",
+      "@austinetech": "@austinetech",
+      "Tell us about your project": "Tuambie kuhusu mradi wako",
+      "Pick the channel that suits you. WhatsApp is fastest — we'll usually respond within an hour during working hours.": "Chagua njia inayokufaa. WhatsApp ni ya haraka zaidi — kwa kawaida tutajibu ndani ya saa moja wakati wa saa za kazi.",
+      "Or drop your email — we'll reply within a day": "Au andika barua pepe yako — tutajibu ndani ya siku moja",
+      Studio: "Studio",
+      Process: "Mchakato",
+      "All work on GitHub": "Kazi zote kwenye GitHub",
+      Story: "Hadithi",
+      Contact: "Mawasiliano",
+      Projects: "Miradi",
+      Team: "Timu",
+    },
+    fr: {
+      "Bungoma, Kenya · Est. May 2026": "Bungoma, Kenya · Établi en mai 2026",
+      "Innovate · Connect · Empower": "Innovez · Connectez · Autonomisez",
+      "Start a project": "Démarrer un projet",
+      "See what we've shipped": "Voir ce que nous avons livré",
+      "Currently shipping": "En cours de livraison",
+      "what brings you here": "ce qui vous amène ici",
+      "I need a website": "J'ai besoin d'un site",
+      "I need an app or SaaS": "J'ai besoin d'une app ou SaaS",
+      "I have an IoT idea": "J'ai une idée IoT",
+      "Just looking around": "Je regarde",
+      "our story": "notre histoire",
+      "Six live builds.": "Six versions en direct.",
+      "Real users.": "Vrais utilisateurs.",
+      "Five live builds.": "Cinq versions en direct.",
+      "what we've shipped": "ce que nous avons livré",
+      "live deployed products": "produits déployés",
+      "sectors covered": "secteurs couverts",
+      "co-founders shipping": "fondateurs qui livrent",
+      "founded — May": "fondé — Mai",
+      "what we build": "ce que nous construisons",
+      "Six services.": "Six services.",
+      "One studio.": "Un studio.",
+      Services: "Services",
+      "Web Development": "Développement Web",
+      "App & SaaS Products": "Apps & SaaS",
+      "Start a product": "Démarrer un produit",
+      "IoT & Hardware": "IoT & Matériel",
+      "Discuss a prototype": "Discuter d'un prototype",
+      "UI/UX Design": "Conception UI/UX",
+      "Digital Marketing": "Marketing Digital",
+      "Product Advisory": "Conseil produit",
+      "live projects": "projets en direct",
+      "Five shipped.": "Cinq livrés.",
+      "One more in beta.": "Un de plus en beta.",
+      "the team": "l'équipe",
+      "Three founders.": "Trois fondateurs.",
+      "what guides us": "ce qui nous guide",
+      "client voices": "voix des clients",
+      "Real people.": "Vraies personnes.",
+      "Real feedback.": "Vrais retours.",
+      "Same-day": "Le jour même",
+      "reply.": "réponse.",
+      "Real humans.": "Vraies personnes.",
+      "how we work": "comment nous travaillons",
+      "From": "De",
+      "idea": "l'idée",
+      "live.": "en ligne.",
+      "No shortcuts — just a proven process that ships.": "Pas de raccourcis — juste un processus éprouvé qui livre.",
+      "Discovery & Scope": "Découverte et Cadrage",
+      "Design & Architecture": "Conception et Architecture",
+      "Prototype & Iterate": "Prototype et Itération",
+      "Build & Polish": "Construction et Finition",
+      "Ship & Support": "Livraison et Support",
+      WhatsApp: "WhatsApp",
+      Email: "Email",
+      "Find us elsewhere": "Retrouvez-nous ailleurs",
+      "GitHub profile": "Profil GitHub",
+      Send: "Envoyer",
+      Privacy: "Confidentialité",
+      Terms: "Conditions",
+      "live builds right now": "versions en direct maintenant",
+      "Request a prototype": "Demander un prototype",
+      "Build a website": "Construire un site",
+      "Discuss an IoT idea": "Discuter d'une idée IoT",
+      Austine: "Austine",
+      Paul: "Paul",
+      Bevan: "Bevan",
+      GitHub: "GitHub",
+      LinkedIn: "LinkedIn",
+      Instagram: "Instagram",
+      YouTube: "YouTube",
+      TikTok: "TikTok",
+      Facebook: "Facebook",
+      profile: "profil",
+      "Austine Wandera": "Austine Wandera",
+      "Austine Tech": "Austine Tech",
+      "@austinetech": "@austinetech",
+      "Tell us about your project": "Parlez-nous de votre projet",
+      "Pick the channel that suits you. WhatsApp is fastest — we'll usually respond within an hour during working hours.": "Choisissez le canal qui vous convient. WhatsApp est le plus rapide — nous répondons généralement dans l'heure pendant les heures de travail.",
+      "Or drop your email — we'll reply within a day": "Ou laissez votre email — nous répondrons dans la journée",
+      Studio: "Studio",
+      Process: "Processus",
+      "All work on GitHub": "Tout le travail sur GitHub",
+      Story: "Histoire",
+      Contact: "Contact",
+      Projects: "Projets",
+      Team: "Équipe",
+    },
+    ar: {
+      "Bungoma, Kenya · Est. May 2026": "بونغوما، كينيا · تأسست مايو 2026",
+      "Kenya, Africa · Est. May 2026": "كينيا، أفريقيا · تأسست مايو 2026",
+      "Innovate · Connect · Empower": "ابتكر · اربط · مكّن",
+      "Start a project": "ابدأ مشروعًا",
+      "See what we've shipped": "شاهد ما أنجزناه",
+      "Currently shipping": "ننجز حاليًا",
+      "what brings you here": "ما الذي أحضرك",
+      "I need a website": "أحتاج موقعًا",
+      "I need an app or SaaS": "أحتاج تطبيقًا أو SaaS",
+      "I have an IoT idea": "لدي فكرة IoT",
+      "Just looking around": "أتصفح فقط",
+      "our story": "قصتنا",
+      "Six live builds.": "ستة إصدارات مباشرة.",
+      "Real users.": "مستخدمون حقيقيون.",
+      "Five live builds.": "خمسة إصدارات مباشرة.",
+      "what we've shipped": "ما أنجزناه",
+      "live deployed products": "منتجات منشورة مباشرة",
+      "sectors covered": "قطاعات مغطاة",
+      "co-founders shipping": "مؤسسون ينجزون",
+      "founded — May": "تأسست — مايو",
+      "what we build": "ما نبنيه",
+      "Six services.": "ست خدمات.",
+      "One studio.": "استوديو واحد.",
+      Services: "الخدمات",
+      "Web Development": "تطوير الويب",
+      "App & SaaS Products": "تطبيقات و SaaS",
+      "Start a product": "ابدأ منتجًا",
+      "IoT & Hardware": "إنترنت الأشياء والمعدات",
+      "Discuss a prototype": "ناقش نموذجًا",
+      "UI/UX Design": "تصميم واجهة المستخدم",
+      "Digital Marketing": "التسويق الرقمي",
+      "Product Advisory": "استشارات المنتج",
+      "live projects": "مشاريع مباشرة",
+      "Five shipped.": "خمسة منجزة.",
+      "One more in beta.": "واحد آخر في النسخة التجريبية.",
+      "the team": "الفريق",
+      "Three founders.": "ثلاثة مؤسسين.",
+      "what guides us": "ما يوجهنا",
+      "client voices": "أصوات العملاء",
+      "Real people.": "أناس حقيقيون.",
+      "Real feedback.": "آراء حقيقية.",
+      "Same-day": "نفس اليوم",
+      "reply.": "رد.",
+      "Real humans.": "بشر حقيقيون.",
+      "how we work": "كيف نعمل",
+      "From": "من",
+      "idea": "فكرة",
+      "live.": "مباشر.",
+      "No shortcuts — just a proven process that ships.": "لا اختصارات — فقط عملية مثبتة تنجز.",
+      "Discovery & Scope": "الاكتشاف والنطاق",
+      "Design & Architecture": "التصميم والهندسة",
+      "Prototype & Iterate": "النموذج الأولي والتكرار",
+      "Build & Polish": "البناء والتحسين",
+      "Ship & Support": "النشر والدعم",
+      WhatsApp: "واتساب",
+      Email: "البريد",
+      "Find us elsewhere": "تجدنا في مكان آخر",
+      "GitHub profile": "ملف GitHub",
+      Send: "إرسال",
+      Privacy: "الخصوصية",
+      Terms: "الشروط",
+      "live builds right now": "إصدارات مباشرة الآن",
+      "Request a prototype": "طلب نموذج أولي",
+      "Build a website": "بناء موقع",
+      "Discuss an IoT idea": "ناقش فكرة IoT",
+      Austine: "أوستين",
+      Paul: "بول",
+      Bevan: "بيفان",
+      GitHub: "GitHub",
+      LinkedIn: "LinkedIn",
+      Instagram: "Instagram",
+      YouTube: "YouTube",
+      TikTok: "TikTok",
+      Facebook: "Facebook",
+      profile: "الملف الشخصي",
+      "Austine Wandera": "أوستين وانديرا",
+      "Austine Tech": "أوستين تيك",
+      "@austinetech": "@austinetech",
+      "Tell us about your project": "أخبرنا عن مشروعك",
+      "Pick the channel that suits you. WhatsApp is fastest — we'll usually respond within an hour during working hours.": "اختر القناة التي تناسبك. واتساب هو الأسرع — نرد عادةً في غضون ساعة خلال ساعات العمل.",
+      "Or drop your email — we'll reply within a day": "أو اترك بريدك الإلكتروني — سنرد خلال يوم",
+      Studio: "الاستوديو",
+      Process: "العملية",
+      "All work on GitHub": "كل الأعمال على GitHub",
+      Story: "القصة",
+      Contact: "اتصل",
+      Projects: "المشاريع",
+      Team: "الفريق",
+    },
+  };
+
+  window.atSetLang = function (lang) {
+    if (lang === 'en') {
+      document.querySelectorAll('[data-at-orig]').forEach(function (el) {
+        el.innerHTML = el.dataset.atOrig;
+      });
+      document.documentElement.lang = 'en';
+      document.documentElement.dir = 'ltr';
+      try { localStorage.setItem('at-lang', 'en'); } catch (e) {}
+      return;
+    }
+    var dict = atTranslations[lang];
+    if (!dict) return;
+
+    function walk(node) {
+      if (node.nodeType === 3) {
+        var t = node.nodeValue;
+        var trimmed = t.trim();
+        if (trimmed && dict[trimmed]) {
+          node.nodeValue = t.replace(trimmed, dict[trimmed]);
+        }
+      } else if (node.nodeType === 1 && node.tagName !== 'SCRIPT' && node.tagName !== 'STYLE') {
+        for (var i = 0; i < node.childNodes.length; i++) walk(node.childNodes[i]);
+      }
+    }
+
+    var targets = document.querySelectorAll('h1, h2, h3, h4, p, a, button, span, li, strong, em, .kicker, .stat-lbl, .cb-label, .cb-num');
+    targets.forEach(function (el) {
+      if (!el.dataset.atOrig) el.dataset.atOrig = el.innerHTML;
+      walk(el);
+    });
+
+    document.documentElement.lang = lang;
+    document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    try { localStorage.setItem('at-lang', lang); } catch (e) {}
+  };
+
+  (function detectLang() {
+    try {
+      if (localStorage.getItem('at-lang-set')) return;
+      var browser = (navigator.language || 'en').toLowerCase();
+      var target = 'en';
+      if (browser.indexOf('sw') === 0) target = 'sw';
+      else if (browser.indexOf('fr') === 0) target = 'fr';
+      else if (browser.indexOf('ar') === 0) target = 'ar';
+      localStorage.setItem('at-lang-set', '1');
+      if (target !== 'en') {
+        var apply = function () { if (window.atSetLang) window.atSetLang(target); };
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', apply);
+        } else {
+          setTimeout(apply, 50);
+        }
+      }
+    } catch (e) {}
+  })();
+})();
